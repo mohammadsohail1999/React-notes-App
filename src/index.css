@@ -1,0 +1,44 @@
+body{
+
+    
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)), url("https://9to5mac.com/wp-content/uploads/sites/6/2019/03/Untitled.png?w=1500");
+   opacity: .9;
+    transition: background-image 0.5s;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Gloria Hallelujah',sans-serif;
+
+
+
+
+}
+
+h1{
+    font-family: 'Gloria Hallelujah';
+}
+
+
+
+.grid1{
+
+
+
+
+
+transition: transform .6s;
+
+}
+
+
+.grid1:hover{
+
+
+transform: scale(1.12);
+
+
+
+}
+
+
+
