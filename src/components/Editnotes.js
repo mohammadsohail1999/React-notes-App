@@ -23,7 +23,7 @@ const Editnotes = (props)=>{
 
     if(props.note){
 
- return <div>
+ return <div style={{marginTop:'6%'}}>
       <div className="ui segment">
           <form onSubmit={(e)=>{e.preventDefault() 
                
@@ -46,7 +46,7 @@ const Editnotes = (props)=>{
 
      </div>
 
-        <button className='ui basic green button'>
+        <button style={{marginTop:'2%'}} className='ui basic green button'>
             Submit
         </button>
           

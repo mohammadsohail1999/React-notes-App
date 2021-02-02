@@ -20,9 +20,9 @@ class  Shownotes extends React.Component {
      if(!this.props.notes){
          return null
      }
-     return <div className="ui segment">
+     return <div style={{marginTop:'6%',minWidth:'70%'}} className="ui segment">
          <h1>{this.props.notes.title}</h1>
-    <p>{this.props.notes.text}</p>
+    <p style={{width:'70%'}}>{this.props.notes.text}</p>
     <Link to={`/notes/edit/${this.props.notes.id}`} className="ui basic primary button">Edit</Link>
     <Link to={`/notes/delete/${this.props.notes.id}`} className="ui basic red button">Delete</Link>
 
@@ -43,7 +43,11 @@ class  Shownotes extends React.Component {
         console.log(this.props.notes);
 
 
-     return <div>{this.renderDetails()}
+     return <div >
+         
+         <Link style={{marginTop:'2%'}} className="ui basic green button" to="/">Go back!</Link>
+         
+         {this.renderDetails()}
      </div>
 
          

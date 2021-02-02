@@ -37,7 +37,7 @@ import {Link} from 'react-router-dom';
               </div>
 
             <div className="content">
-              <div className="summary">
+              <div style={{overflow:'hidden'}} className="summary">
               {note.text}
               </div>
            
