@@ -22,6 +22,7 @@ class  Shownotes extends React.Component {
      }
      return <div className="ui segment">
          <h1>{this.props.notes.title}</h1>
+         <h1>commited</h1>
     <p>{this.props.notes.text}</p>
     <Link to={`/notes/edit/${this.props.notes.id}`} className="ui basic primary button">Edit</Link>
     <Link to={`/notes/delete/${this.props.notes.id}`} className="ui basic red button">Delete</Link>
