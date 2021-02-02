@@ -25,6 +25,7 @@ const Editnotes = (props)=>{
 
  return <div style={{marginTop:'6%'}}>
       <div className="ui segment">
+        <div>commit</div>
           <form onSubmit={(e)=>{e.preventDefault() 
                
              const FormValue = {

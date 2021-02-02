@@ -28,7 +28,7 @@ const onFormSubmit = (e)=>{
 
 return <form onSubmit={onFormSubmit} style={{marginTop:20}} className="ui form ">
   <div className="ui segment">
-  <h1 >Add a note!</h1>
+  <h1 >Add a note! commit</h1>
    <label style={{fontSize:20}}>Title</label>
     <input required onChange={(e)=>{ setTitle(e.target.value)}}/>
     
